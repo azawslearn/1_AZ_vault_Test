@@ -2,7 +2,7 @@ import msal
 from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 
-keyVaultName = "mplekeyvaultforpyapp22"
+keyVaultName = "lekeyvaultforpyapp22"
 KVUri = f"https://{keyVaultName}.vault.azure.net"
 
 credential = DefaultAzureCredential()
